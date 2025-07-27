@@ -1,0 +1,13 @@
+$viola: #7c19ee;
+$rosa: #f2eafd;
+$grigio: #e5eaf0;
+$bianc_opaco: #fafaf9;
+$bianco: #ffffff;
+$grig_scuro: #20293a;
+$grigi_medio: #394150;
+
+@mixin font($fs, $fw, $color) {
+  font-size: $fs;
+  font-weight: $fw;
+  color: $color;
+}

@@ -1,0 +1,57 @@
+@use '../base/variables' as *;
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  color: $bianc_opaco;
+}
+
+.card {
+  width: 36.8rem;
+  box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border-radius: 10px;
+  color: $bianco;
+
+  & > * {
+    padding-bottom: 1.6rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+  }
+  &_image {
+    height: 18.4rem;
+    width: 100%;
+    padding-top: 1.6rem;
+    border-radius: 2.5rem;
+  }
+
+  &_qualification {
+    margin-left: 1.6rem;
+    margin-bottom: 1.6rem;
+    padding: 0.6rem 1rem;
+    background-color: $rosa;
+    border-radius: 999px;
+  }
+
+  &_title {
+    padding-bottom: 0.6rem;
+  }
+
+  &_paragraph {
+    padding-bottom: 2rem;
+    line-height: 1.6;
+  }
+
+  &_author {
+    display: block;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    border-top: 1px solid $grigio;
+  }
+}

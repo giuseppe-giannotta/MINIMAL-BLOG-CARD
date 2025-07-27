@@ -1,0 +1,19 @@
+@use 'variables' as *;
+
+.card {
+  &_qualification {
+    @include font(1rem, 600, $viola);
+  }
+
+  &_title {
+    @include font(1.8rem, 600, $grig_scuro);
+  }
+
+  &_paragraph {
+    @include font(1.4rem, 300, $grigi_medio);
+  }
+
+  &_author {
+    @include font(1.2rem, 300, $grigi_medio);
+  }
+}
